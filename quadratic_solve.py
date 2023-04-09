@@ -9,6 +9,13 @@ c = float(input("Escribe el valor de c: "))
 # discriminante b²-4ac
 dis = b**2 - 4*a*c
 
+if dis > 0:
+    print("Dos soluciones reales")
+elif dis == 0:
+    print("Soluciones repetidas")
+else:
+    print("Soluciones complejas")
+
 x1 = (-b + dis**0.5)/2*a # solucion 1
 x2 = (-b - dis**0.5)/2*a # solucion 2
 # se imprimen en pantalla los resultados
