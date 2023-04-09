@@ -1,2 +1,3 @@
-# Quadratic_Solve
-This program solve a quadratic equation in the form ax²+bx+c=0
+# QuadraticSolve
+This program solve a quadratic equation in the form ax²+bx+c=0.
+The program has a clear execution.
